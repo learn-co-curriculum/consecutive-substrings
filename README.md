@@ -1,6 +1,6 @@
 # Bonus 5: Consecutive Substrings
 
-Given a string, return all consecutive substrings within that string consisting of at least one character.
+Given a string, return all consecutive substrings within that string consisting of at least one character. Substrings should be returned in the order in which they appear.
 
 Note than in the string 'abc', 'ac' is not a consecutive substring.
 

@@ -3,13 +3,13 @@ def consecutive_substrings(string)
 end
 
 if __FILE__ == $PROGRAM_NAME
-  puts "Expecting: 3"
-  puts consecutive_substrings([2, 1, 3, 3, 2])
+  puts "Expecting: ['a', 'ab', 'abc', 'b', 'bc', 'c']"
+  print consecutive_substrings('abc')
 
   puts
 
-  puts "Expecting: -1"
-  puts consecutive_substrings([1, 2, 3, 4])
+  puts "Expecting: ['a']"
+  print consecutive_substrings('a')
 
   # Don't forget to add your own!
 end
