@@ -37,4 +37,25 @@ if __FILE__ == $PROGRAM_NAME
 end
 
 # Please add your pseudocode to this file
+#####################################################################################
+ # initialize an empty array called subs
+ # 
+ # iterative over string:
+ #    push character onto subs
+ #    initialize fragment and store character in it
+ # 
+ #    iterate over string starting one index ahead:
+ #      add letter to fragment
+ #      push fragment onto subs
+ # 
+ # return subs
+#####################################################################################
+
 # And a written explanation of your solution
+#####################################################################################
+ # We can get all of the consecutive substrings by iterating over the string. We
+ # push that character onto an array. We also store that character in a variable,
+ # which we'll use to store the rest of the following characters. Next, we iterate
+ # over the rest of the string. Each time we encounter a new character, we add it
+ # onto the variable and then push the variable onto the array.
+#####################################################################################
