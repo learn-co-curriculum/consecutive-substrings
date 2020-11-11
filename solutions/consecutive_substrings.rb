@@ -40,7 +40,7 @@ end
 #####################################################################################
  # initialize an empty array called subs
  # 
- # iterative over string:
+ # iterate over string:
  #    push character onto subs
  #    initialize fragment and store character in it
  # 
