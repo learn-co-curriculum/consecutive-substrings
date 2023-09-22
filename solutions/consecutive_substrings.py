@@ -1,17 +1,15 @@
 def consecutive_substrings(string):
-
-    char_arr = [*string]
     substring_arr = []
 
-    for i in range(len(char_arr)):
+    for i in range(len(string)):
 
-        substring = char_arr[i]
+        substring = string[i]
 
         substring_arr.append(substring)
 
-        for j in range(i + 1, len(char_arr)):
+        for j in range(i + 1, len(string)):
 
-            substring += char_arr[j]
+            substring += string[j]
 
             substring_arr.append(substring)
 
